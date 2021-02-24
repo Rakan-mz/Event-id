@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Share Object Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Tajawal:400,700,800,900&display=swap&subset=arabic"
+        rel="stylesheet">
+    <link href="css2/style.css" rel="stylesheet">
+    <link rel="icon" href="css2/quiz.png" type="image/icon type">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="grid">
+
+
+            <!-- startGame -->
+            <div id="start" class="center" style="display: flex;">
+                <div id="st" class="st center">
+                    <!-- <img src="img/2.png" alt="" class="corna"> -->
+                    <h1>Are You Ready?! 😍🔥 </h1>
+                    <!-- <img src="img/1.png" class="man"> -->
+                </div>
+               
+                <button id="btn4">! Let's go</button>
+            </div>
+            <div class="info_box">
+
+            </div>
+            <!-- endGame -->
+            <div id="end" class="center" style="display: none;">
+                <div id="en" class="en center">
+                    <div class="st">
+                        <img src="img/1.png" alt="" class="man2">
+                        <img src="img/2.png" alt="" class="corna3">
+                    </div>
+                </div>
+                <div id="Result"></div>
+
+                <div class="center progress-barr1">
+                    <!-- <div id="btimeGauge1"></div>
+                            <div id="timeGauge1"></div> -->
+
+                    <div id="change" class="meter">
+                        <span id="bar" style="width:0"></span>
+                    </div>
+                </div>
+                <button id="btn5">Again Game</button>
+            </div>
+            <!-- Card -->
+            <div id="quiz" style="display: none;">
+                <div class="div1">
+                    <h1 class="neon-red">File Share Object Quiz</h1>
+                    <a href="index.html">                    <img src="img/hom.png" alt="" style="
+                        width: 30px;
+                        display: block;
+                        top: 3px;
+                        position: relative;
+                        right: 83px !important;
+                        left: 8px;
+                    "></a>
+                </div>
+                <p class="que_text"></p>
+                <div class="buttons option">
+
+                </div>
+                <div class="option_list">
+                    <!-- Here I've inserted options from JavaScript -->
+                </div>
+                <footer class="footer1">
+                    <div class="total_que">
+                        Here I've inserted Question Count Number from JavaScript
+                    </div>
+                    <button class="next_btn heartbeat">Next Que</button>
+                </footer>
+                <!-- <hr style="margin-top: 50px;border:none;display: inline-block;width: 100%;"> -->
+
+            </div>
+            <footer id="footer" class="footer">
+
+                <div class="progress-barr">
+                    <div id="progress"></div>
+                </div>
+            </footer>
+            <div class="quiz_box">
+            </div>
+        </div>
+
+        <div class="result_box disResult">
+            <div class="icon">
+                <i class="fas fa-crown" style="color: #c06c84;"></i>
+            </div>
+            <div class="complete_text">You've completed the Quiz!</div>
+            <div class="score_text">
+                <!-- Here I've inserted Score Result from JavaScript -->
+            </div>
+            <div class="buttons">
+                <button class="restart">Replay Quiz</button>
+                <button class="quit">Quit Quiz</button>
+            </div>
+        </div>
+        </div>
+    <script src="js2/js3.js"></script>
+    <!-- <script src="js/jQuery 3.4.1.js"></script> -->
+
+</body>
+
+</html>
